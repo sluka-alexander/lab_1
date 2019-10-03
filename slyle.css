@@ -23,3 +23,37 @@ h1 {
     color: #23286B;
     background-color: #fcd303;
 }
+/**--------------------TASK 5--------------------**/
+.content_task {
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    box-shadow: 0px 3px 150px rgba(55, 105, 151, 0.3);
+    width: 300px;
+    height: 300px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    background-image: url(img/854937a01143f2fd65aa896c12120691.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
